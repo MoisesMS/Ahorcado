@@ -9,18 +9,28 @@ Este proyecto fue un ejercicio de clase donde nos pedían programar un juego del
 ## Como ejecutar
 
 - navegar con la terminal hasta la ubicación del archivo main.java dentro del paquete "main"
-- Compilar el proyecto
 
-````shell
-javac *.java
-````
-
-- Ejecutar el proyecto
-  - Primero es necesario navegar hasta la carpeta raiz del proyecto y ejecutar el siguiente comando
+- El siguiente comando compilará el proyecto
 
 ```` shell
-java -cp src main.Main
+javac -d bin src/main/*.java
 ````
+
+- Nos dirigimos a la carpeta bin
+
+````shell
+cd bin
+````
+
+- Ejecutamos el proyecto ya compilado
+
+````
+java main.Main
+````
+
+### BUGS
+
+- Cuando se compila el proyecto las imagenes no aparecen, pero el juego es totalmente funcional
 
 # Como jugar
 
